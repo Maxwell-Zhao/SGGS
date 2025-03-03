@@ -6,11 +6,11 @@ You can find detailed usage instructions for using pretrained models and trainin
 If you find our code useful, please cite:
 
 ```bibtex
-@article{qian20233dgsavatar,
-   title={3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting}, 
-   author={Zhiyin Qian and Shaofei Wang and Marko Mihajlovic and Andreas Geiger and Siyu Tang},
-   booktitle={CVPR},
-   year={2024},
+@article{zhao2024sg,
+  title={SG-GS: Photo-realistic Animatable Human Avatars with Semantically-Guided Gaussian Splatting},
+  author={Zhao, Haoyu and Yang, Chen and Wang, Hao and Zhao, Xingyue and Shen, Wei},
+  journal={arXiv preprint arXiv:2408.09665},
+  year={2024}
 }
 ```
 
