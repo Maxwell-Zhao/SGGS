@@ -268,7 +268,7 @@ class SSIM(nn.Module):
             img_gt = targets
 
         # compute ssim
-        ssim = compute_ssim(img_pred, img_gt, channel_axis=0)
+        ssim = compute_ssim(img_pred, img_gt, channel_axis=0, data_range=1.0)
         ssim = torch.tensor(ssim, device=device)
         return ssim
 
