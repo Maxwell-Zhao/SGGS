@@ -88,7 +88,7 @@ python render.py mode=test dataset.test_mode=pose pose_correction=none dataset=p
 ```
 
 ## Test on out-of-distribution poses
-First, please download the preprocessed AIST++ and AMASS sequence for subjects in ZJU-MoCap [here](https://drive.google.com/drive/folders/17vGpq6XGa7YYQKU4O1pI4jCMbcEXJjOI) 
+First, please download the preprocessed AIST++ and AMASS sequence for subjects in ZJU-MoCap [here](https://drive.google.com/drive/folders/17vGpq6XGa7YYQKU4O1pI4jCMbcEXJjOI?usp=drive_link)
 and extract under the corresponding subject folder `${ZJU_ROOT}/CoreView_${SUBJECT}`.
 
 To animate the subject under out-of-distribution poses, run
